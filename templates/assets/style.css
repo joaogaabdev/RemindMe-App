@@ -119,12 +119,12 @@ form {
   color: #38bdf8;
 }
 
-.hero {
+.main {
   text-align: center;
   padding: 4rem 2rem;
 }
 
-.hero .tag {
+.main .tag {
   display: inline-block;
   background: #eef2ff;
   color: #2563eb;
@@ -133,16 +133,16 @@ form {
   font-size: 0.9rem;
 }
 
-.hero h2 {
+.main h2 {
   font-size: 2.5rem;
   margin: 1rem 0;
 }
 
-.hero .blue {
+.main .blue {
   color: #2563eb;
 }
 
-.hero p {
+.main p {
   max-width: 600px;
   margin: auto;
   color: #555;
@@ -201,7 +201,7 @@ button {
   color: #2563eb;
 }
 
-.hero-icons {
+.main-icons {
   margin-top: 2rem;
   display: flex;
   justify-content: center;
@@ -209,7 +209,7 @@ button {
   color: #2563eb;
 }
 
-.hero-icons p {
+.main-icons p {
   color: #555;
 }
 
