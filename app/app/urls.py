@@ -17,19 +17,15 @@ from django.contrib import admin
 from django.urls import path
 from . import views
 
-# Em app/urls.py
-
 from django.contrib import admin
 from django.urls import path
-from . import views  # <-- GARANTA QUE VOCÊ ESTÁ IMPORTANDO O views.py
+from . import views 
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     
-    # Esta você já tem e está funcionando:
     path('', views.home, name='home'), 
     
-    # ADICIONE ESTAS LINHAS QUE ESTÃO FALTANDO:
     path('index.html', views.home, name='home-index'),
     path('features.html', views.features, name='features'),
     path('howItWorks.html', views.how_it_works, name='how-it-works'),
@@ -40,4 +36,5 @@ urlpatterns = [
     path('my_reminders.html', views.my_reminders, name='my-reminders'),
     path('settings.html', views.settings, name='settings'),
     path('new_reminder.html', views.new_reminder, name='new-reminder'),
+    path('my_profile.html', views.my_profile, name='my-profile'),
 ]

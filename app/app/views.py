@@ -29,3 +29,6 @@ def settings(request):
 
 def new_reminder(request):
     return render(request, 'new_reminder.html')
+
+def my_profile(request):
+    return render(request, 'my_profile.html')

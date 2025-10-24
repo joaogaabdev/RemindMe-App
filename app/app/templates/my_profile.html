@@ -1,0 +1,130 @@
+{% load static %} <!DOCTYPE html>
+<html lang="en"> <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile - RemindMe</title>
+    <link rel="stylesheet" href="{% static 'style.css' %}"> 
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <ul class="nav-links">
+                <li><a href="my_reminders.html">My Reminders</a></li>
+                <li><a href="new_reminder.html">New Reminder</a></li>
+                <li><a href="my_profile.html">My Profile</a></li>
+                <li><a href="settings.html">Settings</a></li>
+                <li><a href="index.html">Logout</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <section class="main" style="padding-top: 2rem; text-align: left; max-width: 1100px; margin: auto;">
+
+            <div class="profile-header">
+                </div>
+                <div class="profile-info">
+                    <h1>João Gabriel</h1>
+                    <div class="profile-bio">
+                        <h2>About Me</h2>
+                        <p>Passionate about technology and productivity. I use RemindMe to stay organized and never miss important deadlines.</p>
+                </div>
+            </div>
+
+            <h2 style="margin-top: 2rem;">Your Stats</h2>
+            <div class="feature-grid" style="margin-bottom: 3rem;">
+                <div class="card">
+                    <h3>Active Reminders</h3>
+                    <h2 style="color: #3B82F6; margin: 0.5rem 0;">15</h2>
+                </div>
+                <div class="card">
+                    <h3>Completed Reminders</h3>
+                    <h2 style="color: #047857; margin: 0.5rem 0;">82</h2>
+                </div>
+                <div class="card">
+                    <h3>Total Documents</h3>
+                    <h2 style="color: #4B5563; margin: 0.5rem 0;">97</h2>
+                </div>
+            </div>
+
+            <h2>Personal Goals Dashboard</h2>
+            <div class="table-container" style="margin-bottom: 3rem;">
+
+                <div class="goal-item">
+                    <div class="goal-header">
+                        <span>Monthly Reminders Completed</span>
+                        <span class="goal-status">35 / 50</span>
+                    </div>
+                    <div class="progress-bar-container">
+                        <div class="progress-bar-fill" style="width: 70%;"></div>
+                    </div>
+                </div>
+
+                <div class="goal-item">
+                    <div class="goal-header">
+                        <span>New Documents Processed (Quarterly)</span>
+                        <span class="goal-status">80 / 100</span>
+                    </div>
+                    <div class="progress-bar-container">
+                        <div class="progress-bar-fill" style="width: 80%;"></div>
+                    </div>
+                </div>
+
+                <div class="goal-item">
+                    <div class="goal-header">
+                        <span>Profile Completion</span>
+                        <span class="goal-status">100%</span>
+                    </div>
+                    <div class="progress-bar-container">
+                        <div class="progress-bar-fill" style="width: 100%; background-color: #047857;"></div>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <h2>Recent Activity</h2>
+            <div class="table-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Action</th>
+                            <th>Document / Details</th>
+                            <th>Date</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>New Reminder Created</td>
+                            <td>Contract Client X</td>
+                            <td>Oct 24, 2025</td>
+                        </tr>
+                        <tr>
+                            <td>Reminder Completed</td>
+                            <td>Invoice #12345</td>
+                            <td>Oct 23, 2025</td>
+                        </tr>
+                        <tr>
+                            <td>Profile Updated</td>
+                            <td>Password changed</td>
+                            <td>Oct 22, 2025</td>
+                        </tr>
+                         <tr>
+                            <td>New Document Uploaded</td>
+                            <td>Monthly Report.pdf</td>
+                            <td>Oct 22, 2025</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+        <a href="settings.html" class="btn secondary">Edit Profile</a>
+    </main>
+    <footer class="footer">
+    <p>RemindMe - Developed by
+    <a href="https://github.com/joaogaabdev" target="_blank">joaogaabdev</a> | Open Source & Secure</p>
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-original.svg" class="icon" alt="LinkedIn" srcset="">
+    <a href="https://www.linkedin.com/in/joão-gabriel-018a8425a" target="_blank">João Gabriel</a>
+    </footer>
+</body>
+</html>

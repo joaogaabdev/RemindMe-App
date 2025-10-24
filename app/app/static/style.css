@@ -6,8 +6,8 @@
 }
 
 body {
-    background-color: #f5f7fa;
-    color: #333;
+    background-color: #f9fafb;
+    color: #4B5563;
     line-height: 1.6;
     display: flex;
     flex-direction: column;
@@ -23,29 +23,30 @@ main {
 h1 {
     font-size: 2.5rem;
     margin-bottom: 1rem;
-    color: #111;
+    color: #1F2937; 
     text-align: center;
 }
 
 .footer {
-  background: #1e293b;
-  color: #fff;
+  background: #111827; 
+  color: #FFFFFF; 
   text-align: center;
   padding: 15px;
   height: 200px;
-  font-size: 20px;;
+  font-size: 20px;
   bottom: 0;
   left: 0;
   right: 0;
 }
 
 footer a {
-  color: #38bdf8;
+  color: #3B82F6; 
   text-decoration: none;
   font-weight: bold;
 }
 nav {
-    background-color: #1e293b;
+    
+    background-color: #111827; 
     padding: 15px 30px;
     display: flex;
     justify-content: space-between;
@@ -58,13 +59,13 @@ nav ul {
     padding: 0;
 }
 nav a {
-    color: #cbd5e1;
+    color: #D1D5DB; 
     margin-left: 20px;
     text-decoration: none;
 }
 
 .navbar {
-  background: #1e293b;
+  background: #111827; 
   padding: 1rem 0;
   position: sticky;
   top: 0;
@@ -84,7 +85,7 @@ form {
   max-width: 400px;
   margin: 2rem auto;
   padding: 2rem;
-  background: white;
+  background: #FFFFFF; 
   border-radius: 20px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
   display: flex;
@@ -100,7 +101,7 @@ form {
 }
 
 .logo {
-  color: #fff;
+  color: #FFFFFF; 
   font-weight: bold;
 }
 
@@ -110,13 +111,13 @@ form {
 }
 
 .nav-links a {
-  color: #fff;
+  color: #FFFFFF;
   text-decoration: none;
   font-weight: 500;
 }
 
 .nav-links a:hover {
-  color: #38bdf8;
+  color: #3B82F6; 
 }
 
 .main {
@@ -126,8 +127,8 @@ form {
 
 .main .tag {
   display: inline-block;
-  background: #eef2ff;
-  color: #2563eb;
+  background: #DBEAFE; 
+  color: #3B82F6; 
   padding: 0.3rem 0.8rem;
   border-radius: 10px;
   font-size: 0.9rem;
@@ -139,13 +140,13 @@ form {
 }
 
 .main .blue {
-  color: #2563eb;
+  color: #3B82F6; 
 }
 
 .main p {
   max-width: 600px;
   margin: auto;
-  color: #555;
+  color: #4B5563; 
 }
 
 .buttons {
@@ -156,7 +157,7 @@ form {
 }
 
 button:hover {
-  background-color: #2563eb;
+  background-color: #2563EB; 
   transform: scale(1.05);
   box-shadow: 0 4px 15px rgba(0,0,0,0.2);
 }
@@ -164,7 +165,7 @@ button:hover {
 button {
   width: 100%;
   padding: 12px;
-  background-color: #38bdf8;
+  background-color: #3B82F6; 
   border: none;
   border-radius: 5px;
   color: white;
@@ -188,17 +189,17 @@ button {
 }
 
 .btn.primary {
-  background: #2563eb;
-  color: #fff;
+  background: #3B82F6; 
+  color: #FFFFFF; 
 }
 
 .btn.primary:hover {
-  background: #1d4ed8;
+  background: #2563EB; 
 }
 
 .btn.secondary {
-  border: 1px solid #2563eb;
-  color: #2563eb;
+  border: 1px solid #3B82F6; 
+  color: #3B82F6; 
 }
 
 .main-icons {
@@ -206,11 +207,11 @@ button {
   display: flex;
   justify-content: center;
   gap: 3rem;
-  color: #2563eb;
+  color: #3B82F6;
 }
 
 .main-icons p {
-  color: #555;
+  color: #4B5563;
 }
 
 .features {
@@ -224,7 +225,7 @@ button {
 
 .features p {
   margin-bottom: 2rem;
-  color: #555;
+  color: #4B5563;
 }
 
 .feature-grid {
@@ -236,7 +237,7 @@ button {
 }
 
 .card {
-  background: #fff;
+  background: #FFFFFF;
   padding: 1.5rem;
   border-radius: 20px;
   text-align: left;
@@ -252,8 +253,8 @@ button {
   color: white;
 }
 .card.dark {
-  background: #1e293b;
-  color: #fff;
+  background: #111827;
+  color: #FFFFFF;
 }
 
 .how {
@@ -271,7 +272,7 @@ button {
 
 .step {
   flex: 1 1 300px;
-  background: #fff;
+  background: #FFFFFF; 
   padding: 1.5rem;
   border-radius: 10px;
   box-shadow: 0 1px 4px rgba(0,0,0,0.05);
@@ -279,14 +280,14 @@ button {
 }
 
 .tech {
-  background: #0f172a;
-  color: #fff;
+  background: #111827; 
+  color: #FFFFFF; 
   padding: 4rem 2rem;
   text-align: center;
 }
 
 .tech-box {
-  background: #1e293b;
+  background: #111827;
   border-radius: 10px;
   max-width: 700px;
   margin: 2rem auto 0;
@@ -303,15 +304,15 @@ button {
 .stack span {
   padding: 0.5rem 1rem;
   border-radius: 8px;
-  background: #334155;
+  background: #1F2937; 
 }
 
 .stack .active {
-  background: #2563eb;
+  background: #3B82F6; 
 }
 
 .security p {
-  color: #ddd;
+  color: #D1D5DB; 
 }
 
 .ready {
@@ -320,7 +321,7 @@ button {
 }
 
 .ready p {
-  color: #555;
+  color: #4B5563;
   margin: 1rem 0;
 }
 
@@ -334,11 +335,11 @@ img.icon {
 .table-container {
   max-width: 1100px;
   margin: 2rem auto;
-  background: #fff;
+  background: #FFFFFF;
   border-radius: 8px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
   padding: 2rem;
-  overflow-x: auto; /* Para responsividade */
+  overflow-x: auto; 
 }
 
 table {
@@ -349,11 +350,11 @@ table {
 
 table th, table td {
   padding: 1rem;
-  border-bottom: 1px solid #eef2ff;
+  border-bottom: 1px solid #DBEAFE; 
 }
 
 table th {
-  color: #555;
+  color: #4B5563; 
   text-transform: uppercase;
   font-size: 0.8rem;
 }
@@ -376,7 +377,7 @@ table td .status.completed {
 }
 
 table td .action-btn {
-  color: #2563eb;
+  color: #3B82F6; 
   text-decoration: none;
   font-weight: bold;
   margin-right: 10px;
@@ -385,10 +386,9 @@ table td .action-btn:hover {
   text-decoration: underline;
 }
 
-/* Estilos para Upload (Novo Lembrete) */
 .upload-box {
-  background: #fff;
-  border: 2px dashed #cbd5e1;
+  background: #FFFFFF;
+  border: 2px dashed #D1D5DB;
   border-radius: 10px;
   padding: 3rem;
   text-align: center;
@@ -397,16 +397,15 @@ table td .action-btn:hover {
 }
 
 .upload-box:hover {
-  background: #f5f7fa;
-  border-color: #2563eb;
+  background: #f9fafb; 
+  border-color: #3B82F6;
 }
 
 .upload-box p {
-  color: #555;
+  color: #4B5563;
   margin-top: 1rem;
 }
 
-/* Inputs para formulários (melhorando o que já existe) */
 input[type="text"],
 input[type="email"],
 input[type="password"],
@@ -414,8 +413,104 @@ input[type="date"] {
   width: 100%;
   padding: 12px;
   margin-bottom: 1rem;
-  border: 1px solid #cbd5e1;
+  border: 1px solid #D1D5DB; 
   border-radius: 5px;
   font-size: 1rem;
-  box-sizing: border-box; /* Garante que o padding não quebre o layout */
+  box-sizing: border-box; 
 }
+
+.profile-header {
+  display: flex;
+  flex-wrap: wrap; 
+  align-items: center;
+  background: #FFFFFF;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  margin-bottom: 2rem;
+}
+
+.profile-avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: #DBEAFE; 
+  color: #3B82F6; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+  font-weight: bold;
+  margin-right: 2rem;
+  flex-shrink: 0; 
+}
+
+.profile-info {
+  flex-grow: 1; 
+}
+
+.profile-info h1 {
+  text-align: left;
+  margin: 0;
+  font-size: 2.2rem;
+}
+
+.profile-info p {
+  color: #4B5563;
+  font-size: 1.1rem;
+  margin: 0.25rem 0 0 0;
+}
+
+.profile-info .btn {
+  margin-top: 1rem;
+}
+
+.chart-container {
+  max-width: 1100px;
+  margin: 2rem auto;
+  background: #FFFFFF;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  padding: 2rem;
+  position: relative; 
+}
+
+.goal-item {
+  margin-bottom: 1.5rem;
+}
+.goal-item:last-child {
+  margin-bottom: 0.25rem;
+}
+
+.goal-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+  color: #1F2937; 
+  font-weight: bold;
+}
+
+.goal-header .goal-status {
+  color: #4B5563; 
+  font-weight: normal;
+}
+
+.progress-bar-container {
+  width: 100%;
+  height: 12px;
+  background-color: #DBEAFE; 
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.progress-bar-fill {
+  height: 100%;
+  background-color: #3B82F6; 
+  border-radius: 10px;
+  transition: width 0.5s ease;
+}
+.goal-description {
+  margin-top: 0.5rem;
+  color: #6B7280; 
+  font-size: 0.9rem;
+} 

@@ -3,21 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Configurações - RemindMe</title>
+    <title>Settings - RemindMe</title>
     <link rel="stylesheet" href="{% static 'style.css' %}"> </head>
 <body>
 
     <nav class="navbar">
         <div class="container">
-            <a href="my_reminders.html" class="logo">RemindMe</a>
+            <a href="my_reminders.html" class="logo">My Reminders</a>
             <ul class="nav-links">
                 <li><a href="admin_dashboard.html">Dashboard</a></li>
-                <li><a href="login.html">Login</a></li>
-                <li><a href="signup.html">Cadastro</a></li>
-                <li><a href="my_reminders.html">Meus Lembretes</a></li>
-                <li><a href="new_reminder.html">Novo Lembrete</a></li>
-                <li><a href="settings.html">Configurações</a></li>
-                <li><a href="index.html">Sair</a></li>
+                <li><a href="my_reminders.html">My Reminders</a></li>
+                <li><a href="new_reminder.html">New Reminder</a></li>
+                <li><a href="settings.html">Settings</a></li>
+                <li><a href="index.html">Logout</a></li>
             </ul>
         </div>
     </nav>
@@ -26,9 +24,9 @@
         <section class="main" style="padding-top: 2rem;">
             
             <form style="text-align: left;">
-                <h1 style="text-align: center; margin-bottom: 2rem;">Configurações</h1>
+                <h1 style="text-align: center; margin-bottom: 2rem;">Settings</h1>
 
-                <label for="name">Nome</label>
+                <label for="name">Name</label>
                 <input type="text" id="name" value="João Gabriel">
 
                 <label for="email">Email</label>
@@ -36,23 +34,23 @@
 
                 <hr style="border: 0; border-top: 1px solid #eef2ff; margin: 1.5rem 0;">
 
-                <label for="password">Nova Senha</label>
-                <input type="password" id="password" placeholder="Deixe em branco para não alterar">
+                <label for="password">New Password</label>
+                <input type="password" id="password" placeholder="Leave blank to keep unchanged">
 
-                <label for="password_confirm">Confirmar Nova Senha</label>
+                <label for="password_confirm">Confirm New Password</label>
                 <input type="password" id="password_confirm">
 
-                <button type="submit" style="margin-top: 1rem;">Salvar Alterações</button>
+                <button type="submit" style="margin-top: 1rem;">Save Changes</button>
             </form>
 
         </section>
     </main>
 
     <footer class="footer">
-        <div style="padding-top: 40px;">
-            <p>RemindMe - Developed by <a href="#">joaogaabdev</a> | Open Source & Secure</p>
-            <p><a href="#">João Gabriel</a> (LinkedIn)</p>
-        </div>
+    <p>RemindMe - Developed by
+    <a href="https://github.com/joaogaabdev" target="_blank">joaogaabdev</a> | Open Source & Secure</p>
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-original.svg" class="icon" alt="LinkedIn" srcset="">
+    <a href="https://www.linkedin.com/in/joão-gabriel-018a8425a" target="_blank">João Gabriel</a>
     </footer>
 
 </body>

@@ -3,18 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Novo Lembrete - RemindMe</title>
+    <title>New Reminder - RemindMe</title>
     <link rel="stylesheet" href="{% static 'style.css' %}"> </head>
 <body>
 
-    <nav class="navbar">
+   <nav class="navbar">
         <div class="container">
             <a href="my_reminders.html" class="logo">RemindMe</a>
             <ul class="nav-links">
-                <li><a href="my_reminders.html">Meus Lembretes</a></li>
-                <li><a href="new_reminder.html">Novo Lembrete</a></li>
-                <li><a href="settings.html">Configurações</a></li>
-                <li><a href="index.html">Sair</a></li>
+                <li><a href="my_reminders.html">My Reminders</a></li>
+                <li><a href="new_reminder.html">New Reminder</a></li>
+                <li><a href="settings.html">Settings</a></li>
+                <li><a href="index.html">Logout</a></li>
             </ul>
         </div>
     </nav>
@@ -23,31 +23,36 @@
         <section class="main" style="padding-top: 2rem;">
             
             <form style="text-align: left; max-width: 600px;">
-                <h1 style="text-align: center; margin-bottom: 2rem;">Novo Lembrete</h1>
+                <h1 style="text-align: center; margin-bottom: 2rem;">New Reminder</h1>
 
-                <label>Arquivo (PDF ou Imagem)</label>
+                <label>File (PDF or Image)</label>
                 <div class="upload-box">
                     <img src="https://img.icons8.com/ios/50/2563eb/upload-to-cloud--v1.png" alt="Upload Icon" style="width: 50px; height: 50px;"/>
-                    <p>Arraste e solte seu arquivo aqui ou <strong>clique para selecionar</strong></p>
+                    <p>Drag and drop your file here or <strong>click to select</strong></p>
                 </div>
-                <label for="title" style="margin-top: 1.5rem;">Título do Lembrete</label>
-                <input type="text" id="title" placeholder="Ex: Contrato Cliente X">
+                <label for="title" style="margin-top: 1.5rem;">Reminder Title</label>
+                <input type="text" id="title" placeholder="Ex: Contract Expiration for Client X" required>
 
-                <label for="date">Data do Lembrete</label>
-                <input type="date" id="date">
+                <label for="client_contact">Client Name or Contact</label>
+                <input type="text" id="client_contact" placeholder="Ex: João Gabriel (joao@email.com)" required>
 
-                <button type="submit" style="margin-top: 1rem;">Criar Lembrete</button>
+                <label for="subject">Subject (Optional)</label>
+                <input type="text" id="subject" placeholder="Ex: Service Renewal">
+
+                <label for="date">Reminder Date</label>
+                <input type="date" id="date" required>
+
+                <button type="submit" style="margin-top: 1rem;">Create Reminder</button>
             </form>
 
         </section>
-    </main>
+    </main> 
 
     <footer class="footer">
-        <div style="padding-top: 40px;">
-            <p>RemindMe - Developed by <a href="#">joaogaabdev</a> | Open Source & Secure</p>
-            <p><a href="#">João Gabriel</a> (LinkedIn)</p>
-        </div>
+    <p>RemindMe - Developed by
+    <a href="https://github.com/joaogaabdev" target="_blank">joaogaabdev</a> | Open Source & Secure</p>
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-original.svg" class="icon" alt="LinkedIn" srcset="">
+    <a href="https://www.linkedin.com/in/joão-gabriel-018a8425a" target="_blank">João Gabriel</a>
     </footer>
-
 </body>
 </html>
