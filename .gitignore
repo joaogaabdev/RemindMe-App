@@ -1,1 +1,5 @@
 
+docker-compose
+dockerfile
+requirements.txt
+app/app/__pycache__/
