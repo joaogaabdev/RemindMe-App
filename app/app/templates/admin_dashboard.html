@@ -1,0 +1,86 @@
+{% load static %} <!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard do Gestor - RemindMe</title>
+    <link rel="stylesheet" href="{% static 'style.css' %}"> </head>
+<body>
+
+    <nav class="navbar">
+        <div class="container">
+            <a href="my_reminders.html" class="logo">RemindMe</a>
+            <ul class="nav-links">
+                <li><a href="admin_dashboard.html">Dashboard</a></li>
+                <li><a href="my_reminders.html">Meus Lembretes</a></li>
+                <li><a href="new_reminder.html">Novo Lembrete</a></li>
+                <li><a href="settings.html">Configurações</a></li>
+                <li><a href="index.html">Sair</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <section class="main" style="padding-top: 2rem; text-align: left; max-width: 1100px; margin: auto;">
+            <h1 style="text-align: left; margin-bottom: 2rem;">Dashboard do Gestor</h1>
+
+            <div class="feature-grid" style="margin-bottom: 3rem;">
+                <div class="card">
+                    <h3>Total de Usuários</h3>
+                    <h2 style="color: #2563eb; margin: 0.5rem 0;">12</h2>
+                </div>
+                <div class="card">
+                    <h3>Lembretes Ativos</h3>
+                    <h2 style="color: #2563eb; margin: 0.5rem 0;">87</h2>
+                </div>
+                <div class="card">
+                    <h3>Documentos Processados</h3>
+                    <h2 style="color: #2563eb; margin: 0.5rem 0;">340</h2>
+                </div>
+            </div>
+
+            <h2>Gerenciar Equipe</h2>
+            <div class="table-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Nome</th>
+                            <th>Email</th>
+                            <th>Lembretes Ativos</th>
+                            <th>Ações</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Ana Silva</td>
+                            <td>ana.silva@email.com</td>
+                            <td>15</td>
+                            <td><a href="#" class="action-btn">Editar</a> <a href="#" class="action-btn">Remover</a></td>
+                        </tr>
+                        <tr>
+                            <td>Bruno Costa</td>
+                            <td>bruno.costa@email.com</td>
+                            <td>8</td>
+                            <td><a href="#" class="action-btn">Editar</a> <a href="#" class="action-btn">Remover</a></td>
+                        </tr>
+                        <tr>
+                            <td>Carla Dias</td>
+                            <td>carla.dias@email.com</td>
+                            <td>22</td>
+                            <td><a href="#" class="action-btn">Editar</a> <a href="#" class="action-btn">Remover</a></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div style="padding-top: 40px;">
+            <p>RemindMe - Developed by <a href="#">joaogaabdev</a> | Open Source & Secure</p>
+            <p><a href="#">João Gabriel</a> (LinkedIn)</p>
+        </div>
+    </footer>
+
+</body>
+</html>

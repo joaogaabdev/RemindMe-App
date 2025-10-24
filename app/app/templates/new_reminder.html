@@ -1,0 +1,53 @@
+{% load static %} <!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Novo Lembrete - RemindMe</title>
+    <link rel="stylesheet" href="{% static 'style.css' %}"> </head>
+<body>
+
+    <nav class="navbar">
+        <div class="container">
+            <a href="my_reminders.html" class="logo">RemindMe</a>
+            <ul class="nav-links">
+                <li><a href="my_reminders.html">Meus Lembretes</a></li>
+                <li><a href="new_reminder.html">Novo Lembrete</a></li>
+                <li><a href="settings.html">Configurações</a></li>
+                <li><a href="index.html">Sair</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <section class="main" style="padding-top: 2rem;">
+            
+            <form style="text-align: left; max-width: 600px;">
+                <h1 style="text-align: center; margin-bottom: 2rem;">Novo Lembrete</h1>
+
+                <label>Arquivo (PDF ou Imagem)</label>
+                <div class="upload-box">
+                    <img src="https://img.icons8.com/ios/50/2563eb/upload-to-cloud--v1.png" alt="Upload Icon" style="width: 50px; height: 50px;"/>
+                    <p>Arraste e solte seu arquivo aqui ou <strong>clique para selecionar</strong></p>
+                </div>
+                <label for="title" style="margin-top: 1.5rem;">Título do Lembrete</label>
+                <input type="text" id="title" placeholder="Ex: Contrato Cliente X">
+
+                <label for="date">Data do Lembrete</label>
+                <input type="date" id="date">
+
+                <button type="submit" style="margin-top: 1rem;">Criar Lembrete</button>
+            </form>
+
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div style="padding-top: 40px;">
+            <p>RemindMe - Developed by <a href="#">joaogaabdev</a> | Open Source & Secure</p>
+            <p><a href="#">João Gabriel</a> (LinkedIn)</p>
+        </div>
+    </footer>
+
+</body>
+</html>

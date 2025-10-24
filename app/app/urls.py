@@ -36,4 +36,8 @@ urlpatterns = [
     path('signup.html', views.signup, name='signup'),
     path('login.html', views.login, name='login'),
     path('pricing.html', views.pricing, name='pricing'),
+    path('admin_dashboard.html', views.admin_dashboard, name='admin-dashboard'),
+    path('my_reminders.html', views.my_reminders, name='my-reminders'),
+    path('settings.html', views.settings, name='settings'),
+    path('new_reminder.html', views.new_reminder, name='new-reminder'),
 ]

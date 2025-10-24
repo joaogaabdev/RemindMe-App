@@ -1,0 +1,80 @@
+{% load static %} <!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meus Lembretes - RemindMe</title>
+    <link rel="stylesheet" href="{% static 'style.css' %}"> </head>
+<body>
+
+    <nav class="navbar">
+        <div class="container">
+            <a href="my_reminders.html" class="logo">RemindMe</a>
+            <ul class="nav-links">
+                <li><a href="admin_dashboard.html">Dashboard</a></li>
+                <li><a href="my_reminders.html">Meus Lembretes</a></li>
+                <li><a href="new_reminder.html">Novo Lembrete</a></li>
+                <li><a href="settings.html">Configurações</a></li>
+                <li><a href="index.html">Sair</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <section class="main" style="padding-top: 2rem; text-align: left; max-width: 1100px; margin: auto;">
+            
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 2rem;">
+                <h1 style="text-align: left; margin: 0;">Meus Lembretes</h1>
+                <a href="new_reminder.html" class="btn primary">Novo Lembrete</a>
+            </div>
+
+            <div class="table-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Título</th>
+                            <th>Data do Lembrete</th>
+                            <th>Status</th>
+                            <th>Ações</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Contrato Cliente X</td>
+                            <td>30/10/2025</td>
+                            <td><span class="status pending">Pendente</span></td>
+                            <td><a href="#" class="action-btn">Ver</a> <a href="#" class="action-btn">Editar</a></td>
+                        </tr>
+                        <tr>
+                            <td>Nota Fiscal 12345</td>
+                            <td>28/10/2025</td>
+                            <td><span class="status pending">Pendente</span></td>
+                            <td><a href="#" class="action-btn">Ver</a> <a href="#" class="action-btn">Editar</a></td>
+                        </tr>
+                        <tr>
+                            <td>Relatório Mensal</td>
+                            <td>01/10/2025</td>
+                            <td><span class="status completed">Concluído</span></td>
+                            <td><a href="#" class="action-btn">Ver</a> <a href="#" class="action-btn">Editar</a></td>
+                        </tr>
+                         <tr>
+                            <td>Apresentação Vendas</td>
+                            <td>20/09/2025</td>
+                            <td><span class="status completed">Concluído</span></td>
+                            <td><a href="#" class="action-btn">Ver</a> <a href="#" class="action-btn">Editar</a></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div style="padding-top: 40px;">
+            <p>RemindMe - Developed by <a href="#">joaogaabdev</a> | Open Source & Secure</p>
+            <p><a href="#">João Gabriel</a> (LinkedIn)</p>
+        </div>
+    </footer>
+
+</body>
+</html>
