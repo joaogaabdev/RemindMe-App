@@ -1,0 +1,47 @@
+{% load static %} <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Features</title>
+    <link rel="icon" type="image/png" href="{% static 'images/Favicon.png' %}">
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+</head>
+<body>
+  <header class="navbar">
+    <div class="container">
+      <h1 class="logo">RemindMe</h1>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="features.html">Features</a></li>
+          <li><a href="howItWorks.html">How it works</a></li>
+          <li><a href="signup.html">Sign up</a></li>
+          <li><a href="login.html">Login</a></li>
+          <li><a href="pricing.html">Planos e Valores</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+    <section id="features" class="features">
+    <h2>Features</h2>
+    <p>Discover how the RemindMe revolutionizes reminder management through advanced OCR technology.</p>
+    <div class="feature-grid">
+      <div class="card dark">Advanced OCR <p>Optical character recognition with high accuracy to extract information from documents, images, and scanned texts.</p></div>
+      <div class="card">Smart Reminders <p>Automated system that schedules and sends reminders based on information extracted by OCR from your documents.</p></div>
+      <div class="card">High Performance <p>Developed in Django for maximum efficiency and speed in processing documents and scheduling tasks.</p></div>
+      <div class="card">Multiple Formats <p>Support for various file formats including PDF, PNG, JPG, and scanned documents.</p></div>
+      <div class="card dark">Guaranteed Security <p>Local processing of documents ensures complete privacy and security of your personal and professional data.</p></div>
+      <div class="card">Simple Interface <p>Intuitive command-line interface that is easy to use, ideal for integration into existing workflows.</p></div>
+    </div>
+    </section>
+
+    <footer class="footer">
+    <p>RemindMe - Developed by
+    <a href="https://github.com/joaogaabdev" target="_blank">joaogaabdev</a> | Open Source & Secure</p>
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-original.svg" class="icon" alt="LinkedIn">
+    <a href="https://www.linkedin.com/in/joão-gabriel-018a8425a" target="_blank">João Gabriel</a>
+    </footer>
+</body>
+</html>

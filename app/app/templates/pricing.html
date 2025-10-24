@@ -1,0 +1,77 @@
+{% load static %} <!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Planos e Valores - RemindMe</title>
+    <link rel="stylesheet" href="{% static 'style.css' %}"> </head>
+<body>
+
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">RemindMe</a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="features.html">Features</a></li>
+                <li><a href="howItWorks.html">How it works</a></li>
+                <li><a href="signup.html">Sign up</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <section class="features">
+            <h2>Planos e Preços</h2>
+            <p>Escolha o plano que melhor se adapta às suas necessidades.</p>
+
+            <div class="feature-grid" style="margin-top: 3rem;">
+                
+                <div class="card">
+                    <h3>Básico</h3>
+                    <h2 style="color: #2563eb; margin: 1rem 0;">Grátis</h2>
+                    <ul style="text-align: left; list-style-position: inside; margin-bottom: 1.5rem;">
+                        <li>Até 10 Lembretes</li>
+                        <li>OCR Básico</li>
+                        <li>Suporte por Email</li>
+                    </ul>
+                    <a href="signup.html" class="btn secondary" style="width: 100%;">Comece Agora</a>
+                </div>
+
+                <div class="card dark">
+                    <h3>Profissional</h3>
+                    <h2 style="color: #38bdf8; margin: 1rem 0;">R$ 29,90/mês</h2>
+                    <ul style="text-align: left; list-style-position: inside; margin-bottom: 1.5rem;">
+                        <li>Lembretes Ilimitados</li>
+                        <li>OCR Avançado</li>
+                        <li>Integração com Agenda</li>
+                        <li>Suporte Prioritário</li>
+                    </ul>
+                    <a href="signup.html" class="btn primary" style="width: 100%; background: #38bdf8;">Escolher Plano</a>
+                </div>
+
+                <div class="card">
+                    <h3>Empresarial</h3>
+                    <h2 style="color: #2563eb; margin: 1rem 0;">Sob Consulta</h2>
+                    <ul style="text-align: left; list-style-position: inside; margin-bottom: 1.5rem;">
+                        <li>Tudo do Pro</li>
+                        <li>Dashboard de Gestor</li>
+                        <li>Contas de Equipe</li>
+                        <li>API de Acesso</li>
+                    </ul>
+                    <a href="#" class="btn secondary" style="width: 100%;">Entre em Contato</a>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div style="padding-top: 40px;">
+            <p>RemindMe - Developed by <a href="#">joaogaabdev</a> | Open Source & Secure</p>
+            <p><a href="#">João Gabriel</a> (LinkedIn)</p>
+        </div>
+    </footer>
+
+</body>
+</html>
